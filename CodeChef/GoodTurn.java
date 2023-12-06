@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AddTwoNumbers {
+public class GoodTurn {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -9,8 +9,11 @@ public class AddTwoNumbers {
             int a = sc.nextInt();
             int b = sc.nextInt();
 
-            System.out.println(a+b);
+            if (a+b>6){
+                System.out.println("YES");
+            }else{
+                System.out.println("NO");
+            }
         }
-
     }
 }
